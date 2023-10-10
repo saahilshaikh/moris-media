@@ -1,0 +1,183 @@
+.banner__section__2__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 100px 60px 0 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner__section__2__bg{
+    position: absolute;
+    width: 100%;
+    bottom: 280px;
+    left: 0;
+    z-index: -1;
+    transform: scaleX(1.2);
+}
+
+.banner__section__2__bg2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    height: calc(100% - 100px);
+}
+
+.banner__section__2__vector1{
+    width: 45px;
+    position: absolute;
+    object-fit: contain;
+    left: 70px;
+    bottom: 380px;
+    transform: scaleX(-1) rotate(-90deg);
+}
+
+.banner__section__2__vector2{
+    width: 45px;
+    position: absolute;
+    object-fit: contain;
+    right: 70px;
+    bottom: 380px;
+    transform: scaleX(1) rotate(-90deg);
+}
+
+.banner__section__2__container h1{
+    color: #2E2E2E;
+    font-size: 40px;
+    font-family: 'Poppins-Bold';
+}
+
+.banner__section__2__container h1 .dem{
+    background-color: #EE1F4F;
+    color: #FDEC07;
+    padding: 0 12px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.banner__section__2__container h1 .dem::after{
+    position: absolute;
+    content: "";
+    width: 44px;
+    height: 44px;
+    top: -30px;
+    right: -35px;
+    background-image: url('../../../../assests/images/vector3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner__section__2__container h1 .biz{
+    color: #EE1F4F;
+    background-color: transparent;
+    position: relative;
+}
+
+.banner__section__2__container h1 .biz::after{
+    position: absolute;
+    content: "";
+    width: 253px;
+    height: 47px;
+    bottom: -40px;
+    right: 50%;
+    transform: translateX(50%);
+    background-image: url('../../../../assests/images/vector2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner__section__2__container .banner__section__2__btn__grp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.banner__section__2__container .banner__section__2__btn__grp button{
+    width: 205px;
+    height: 56px;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7px;
+    border: 0;
+    margin: 13px;
+    cursor: pointer;
+}
+
+.banner__section__2__container .banner__section__2__btn__grp button:nth-child(1){
+    background-color: #EE1F4F;
+}
+
+.banner__section__2__container .banner__section__2__btn__grp button:nth-child(2){
+    background-color: #6E0D88;
+}
+
+.banner__section__2__container .banner__section__2__btn__grp button p{
+    font-size: 14px;
+    font-family: 'Poppins-Light';
+    background-color: #feeff3;
+    border-radius: 26px;
+    padding: 10px 26px;
+}
+
+.banner__section__2__container .banner__section__2__btn__grp button img{
+    width: 16px;
+    margin-right: 7px;
+}
+
+.banner__section__2__container .banner__section__2__rocket{
+    width: 600px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1100px) {
+    .banner__section__2__vector1{
+        display: none;
+    }
+    .banner__section__2__vector2{
+        display: none;
+    }
+    .banner__section__2__bg{
+        transform: scaleX(1.2) scaleY(2) translateY(-25%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner__section__2__bg{
+        transform: scaleX(1.5) scaleY(4) translateY(-42%);
+    }
+    .banner__section__2__container{
+        padding:0 30px;
+    }
+    .banner__section__2__container h1{
+        font-size: 30px;
+    }
+    .banner__section__2__container h1 .dem::after{
+        width: 30px;
+        top: -20px;
+        right: -25px;
+    }
+    .banner__section__2__container h1 .biz::after{
+        width: 150px;
+        bottom: -40px;
+    }
+    .banner__section__2__container .banner__section__2__btn__grp{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .banner__section__2__container h1{
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,169 @@
+.testimonial__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 4%;
+}
+
+.testimonial__container .testimonial__left__content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 130px;
+    width: 50%;
+}
+
+.testimonial__container .testimonial__left__content div p{
+    color: #6D007D;
+    font-size: 18px;
+    font-family: 'Poppins-Medium';
+    text-align: start;
+}
+
+.testimonial__container .testimonial__left__content h1{
+    color: #2E2E2E;
+    font-size: 45px;
+    font-family: 'Poppins-Bold';
+    margin-top: 16px;
+}
+
+.testimonial__container .testimonial__left__content h1 .dem{
+    background-color: #EE1F4F;
+    color: #fff;
+    padding: 0 12px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.testimonial__container .testimonial__left__content h1 .dem::after{
+    position: absolute;
+    content: "";
+    width: 44px;
+    height: 44px;
+    top: -30px;
+    right: -35px;
+    background-image: url('../../../../assests/images/vector3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.testimonial__container .testimonial__left__content h1 .biz{
+    color: #EE1F4F;
+    background-color: transparent;
+    position: relative;
+}
+
+.testimonial__container .testimonial__left__content h1 .biz::after{
+    position: absolute;
+    content: "";
+    width: 220px;
+    height: 47px;
+    top: 55px;
+    right: 5px;
+    background-image: url('../../../../assests/images/vector2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.testimonial__container .testimonial__left__content p{
+    margin-top: 90px;
+    color: #5E5E5E;
+    font-family: 'Poppins-Medium';
+    font-size: 18px;
+}
+
+.testimonial__container .testimonial__right__content{
+    width: 50%;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 1500px) {
+    .testimonial__container .testimonial__left__content h1{
+        font-size: 40px;
+    }
+    .testimonial__container .testimonial__left__content h1 .biz::after{
+        width: 180px;
+        top:50px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .testimonial__container .testimonial__left__content h1{
+        font-size: 32px;
+    }
+    .testimonial__container .testimonial__left__content h1 .biz::after{
+        width: 140px;
+        top:38px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .testimonial__container .testimonial__left__content h1{
+        font-size: 28px;
+    }
+    .testimonial__container .testimonial__left__content h1 .biz::after{
+        width: 120px;
+        top:32px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .testimonial__container .testimonial__left__content{
+        margin-right: 0;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .testimonial__container{
+        padding: 0 30px;
+    }
+    .testimonial__container .testimonial__left__content{
+        width: 45%;
+    }
+    .testimonial__container .testimonial__right__content{
+        width: 55%;
+        max-width: 55%;
+    }
+    
+}
+
+@media screen and (max-width: 880px) {
+    .testimonial__container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .testimonial__container .testimonial__left__content{
+        width: 100%;
+        margin-bottom: 60px;
+        padding: 0 30px;
+    }
+
+    .testimonial__container .testimonial__right__content{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .testimonial__container .testimonial__left__content h1 .dem::after{
+        width: 28px;
+        top: -20px;
+        right: -20px;
+    }
+    .testimonial__container .testimonial__left__content h1{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .testimonial__container .testimonial__left__content h1{
+        word-wrap: break-word;
+        width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="601.662" viewBox="0 0 1920 601.662">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.505" y2="2.227" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6e0d88"/>
+      <stop offset="1" stop-color="#e1003e"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Union_2" data-name="Union 2" d="M0,126H1920V727.325H0Z" transform="translate(0 280.178)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_20320" data-name="Group 20320" transform="translate(0 -72.838)">
+    <path id="Union_1" data-name="Union 1" d="M-356,126H1564V727.325H-356Z" transform="translate(356 -53.162)" opacity="0.86" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

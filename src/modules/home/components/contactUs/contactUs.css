@@ -1,0 +1,388 @@
+.contact__us__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.contact__us__container .contact__us__left__content{
+    width: 40%;
+}
+
+.contact__us__container .contact__us__left__content img{
+    width: 100%;
+    max-width: 770px;
+    object-fit: contain;
+}
+
+.contact__us__container .contact__us__right__content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    position: relative;
+}
+
+.contact__us__container .contact__us__right__content form{
+    width: 90%;
+    padding: 27px 44px 66px 44px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+		transform: translateY(-11%);
+}
+
+.contact__us__container .contact__us__right__content form .design{
+    width: 100%;
+    position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+
+.contact__us__container .contact__us__right__content form .design .semi__circle{
+    position: absolute;
+    top: -28px;
+    left: -10%;
+    width: 120%;
+    z-index: 1;
+}
+
+.contact__us__container .contact__us__right__content form .design .vector__icon{
+    position: absolute;
+    top: 0;
+}
+
+.contact__us__container .contact__us__right__content form .design .vector__icon:nth-child(2){
+    right: 0;
+    transform: scale(-1,-1) rotate(60deg) translate(-10%,10%);
+}
+
+.contact__us__container .contact__us__right__content form .design .vector__icon:nth-child(3){
+    left: 0;
+    transform: scaleY(-1) rotate(60deg) translate(-10%,10%);
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__header p{
+    font-size: 26px;
+    font-family:'Poppins-SemiBold';
+    color:#E1003E;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__header p:nth-child(2){
+    color: #6E0D88;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__header p:nth-child(3){
+    color:#6E0D88;
+    font-size: 12px;
+    font-family:'Poppins-Medium';
+    margin-top: 13px;
+    position: relative;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__header p:nth-child(3)::before{
+    content: "";
+    width: 55px;
+    height: 4px;
+    background-color: #E1003E;
+    position: absolute;
+    top: 40%;
+    left: -65px;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__header p:nth-child(3)::after{
+    content: "";
+    width: 55px;
+    height: 4px;
+    background-color: #E1003E;
+    position: absolute;
+    top: 40%;
+    right: -65px;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__header img{
+    width: 122px;
+    object-fit: contain;
+    margin-top: 9px;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__body .contact__us__form__content__input{
+    width: 50%;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__body .contact__us__form__content__text__area{
+    width: 100%;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__footer{
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__footer p{
+    color: #000000;
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__footer p span{
+    color: #255EBA;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__footer button{
+    margin-top: 55px;
+    border-radius: 26px;
+    border: 0;
+    width: 164px;
+    height: 55px;
+    background-color: #6E0D88;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__footer button p{
+    color: #fff;
+    font-family: 'Poppins-SemiBold';
+    font-size: 18px;
+}
+
+.contact__us__container .contact__us__right__content form .contact__us__form__content__footer button img{
+    width: 12px;
+    height: 15px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.contact__us__modal{
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20px;
+    background-image: url('../../../../assests/images/bg7.svg');
+    background-repeat: no-repeat;
+    width: 90%;
+    max-width: 1000px;
+    height: 90%;
+    max-height: 600px;
+    overflow: hidden;
+    outline: none;
+}
+
+.contact__us__modal__overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__us__modal__body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.contact__us__modal .contact__us__modal__body .contact__us__modal__body__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contact__us__modal .contact__us__modal__body .contact__us__modal__donut{
+    position: absolute;
+    top: -30px;
+    width: 75%;
+}
+
+.contact__us__modal .contact__us__modal__body .contact__us__modal__vector__1{
+    width: 60px;
+    object-fit: contain;
+    position: absolute;
+    right: 30px;
+    top: 95px;
+    transform: rotate(-2deg);
+}
+
+.contact__us__modal .contact__us__modal__body .contact__us__modal__vector__2{
+    width: 60px;
+    object-fit: contain;
+    position: absolute;
+    left: 30px;
+    top: 85px;
+    transform: scaleX(-1) rotate(-2deg);
+}
+
+.contact__us__modal .contact__us__modal__body .contact__us__modal__thanks{
+    width: 220px;
+    height: 220px;
+}
+
+
+.contact__us__modal .contact__us__modal__body h1{
+    color: #2E2E2E;
+    font-size: 45px;
+    font-family: 'Poppins-Bold';
+    margin-top: 16px;
+}
+
+.contact__us__modal .contact__us__modal__body h1 .dem{
+    background-color: #EE1F4F;
+    color: #FFFF00;
+    padding: 0 12px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.contact__us__modal .contact__us__modal__body h1 .dem::before{
+    position: absolute;
+    content: "";
+    width: 44px;
+    height: 44px;
+    top: -30px;
+    right: -35px;
+    background-image: url('../../../../assests/images/vector3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contact__us__modal .contact__us__modal__body p{
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Poppins-Light';
+    margin-top: 26px;
+    margin: 26px 18%;
+    text-align: center;
+}
+
+.contact__us__modal .contact__us__modal__body p span{
+    color: #E1003E;
+    font-family: 'Poppins-SemiBold';
+}
+
+@media screen and (max-width: 1200px) {
+    .contact__us__container{
+        padding:0;
+        overflow-x: clip;
+    }
+    .contact__us__container .contact__us__left__content{
+        display: none;
+    }
+
+    .contact__us__container .contact__us__right__content{
+        width: 100%;
+        padding: 0;
+    }
+
+    .contact__us__container .contact__us__right__content form{
+				transform: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+		.contact__us__container .contact__us__right__content form .design .semi__circle{
+			width: 1000px;
+			top:0;
+			left: auto;
+			z-index: 1;
+			transform: translateY(-34%);
+		}
+
+    .contact__us__container .contact__us__right__content form .design .vector__icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+	.contact__us__container .contact__us__right__content form .contact__us__form__content__body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+		.contact__us__container .contact__us__right__content form .design .semi__circle{
+			width: 1000px;
+			top:0;
+			left: auto;
+			z-index: 1;
+			transform: translateY(-42%);
+		}
+
+    .contact__us__container .contact__us__right__content form .contact__us__form__content__header p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contact__us__container .contact__us__right__content form .contact__us__form__content__body .contact__us__form__content__input{
+        width: 100%;
+    }
+
+    .contact__us__container .contact__us__right__content form .contact__us__form__content__body .contact__us__form__content__text__area{
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	.contact__us__container .contact__us__right__content form .design .semi__circle{
+		transform: translateY(-42%);
+	}
+	.contact__us__container .contact__us__right__content form{
+		padding: 27px 0px 66px 0px;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.contact__us__container .contact__us__right__content form .design .semi__circle{
+		transform: translateY(-31%);
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.contact__us__container .contact__us__right__content form .design .semi__circle{
+		transform: translateY(-18%);
+	}
+}

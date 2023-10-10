@@ -1,0 +1,112 @@
+.hero__section__container{
+    width: 100%;
+    padding:0 60px;
+    background-image: url('../../../../assests/images/bgTest.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero__section__container .hero__section__content__left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero__section__container .hero__section__content__left p{
+    color:#FDEC07;
+    font-size: 39px;
+    font-family: 'Poppins-Bold';
+}
+
+.hero__section__container .hero__section__content__left p:nth-child(1){
+    transform: translateX(10px);
+}
+
+.hero__section__container .hero__section__content__left p:nth-child(2){
+    background-color: #FDEC07;
+    color: #E1003E;
+    padding:0 15px;
+    border-radius: 6px;
+}
+
+.hero__section__container .hero__section__content__left p:nth-child(3){
+   color: #FFFFFF;
+   font-family: 'Poppins-Medium';
+   font-size: 24px;
+   margin-top: 24px;
+}
+
+.hero__section__container .hero__section__content__right{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-bottom: 6%;
+}
+
+.hero__section__container .hero__section__content__right img{
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1405px) {
+    .hero__section__container .hero__section__content__left p{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .hero__section__container{
+        padding:50px 0 0 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        margin:0;
+    }
+
+    .hero__section__container .hero__section__content__left{
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        padding:0 20px;
+        margin-top: 100px;
+    }
+
+	.hero__section__container .hero__section__content__left p{
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .hero__section__container .hero__section__content__left p:nth-child(1){
+        transform: translateX(0);
+    }
+
+    .hero__section__container .hero__section__content__left p:nth-child(3){
+        font-size: 24px;
+    }
+
+    .hero__section__container .hero__section__content__right{
+        width: 100%;
+        margin: 0;
+        padding:0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero__section__container .hero__section__content__left p{
+        font-size: 24px;
+    }
+
+    .hero__section__container .hero__section__content__left p:nth-child(3){
+        font-size: 18px;
+    }
+}

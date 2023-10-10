@@ -1,0 +1,15 @@
+.custom__phone__input__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.custom__phone__input__container .custom__phone__input__dropdown{
+    width: 106px;
+}
+
+.custom__phone__input__container .custom__phone__input{
+    width: 100%;
+}

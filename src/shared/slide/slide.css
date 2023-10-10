@@ -1,0 +1,65 @@
+.swiper_container {
+  padding: 50px !important;
+  position: relative;
+}
+
+.swiper_container .swiper-slide {
+    position: relative;
+    padding: 50px;
+    width: 350px !important;
+    height: 380px !important;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0px 20px 36px #0000001A;
+}
+
+.swiper_container .swiper-slide .slider__card{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.swiper_container .swiper-slide .slider__card img{
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+}
+
+.swiper_container .swiper-slide .slider__card h1{
+    color: #060640;
+    font-size: 20px;
+    font-family: 'Poppins-Bold';
+    margin-top: 14px;
+}
+
+.swiper_container .swiper-slide .slider__card p{
+    color: #060640;
+    font-size: 14px;
+    font-family: 'Poppins-LightItalic';
+    margin-top: 4px;
+}
+
+.swiper_container .swiper-slide .slider__card p:nth-child(2){
+    color: #504E5D;
+    font-size: 14px;
+    font-family: 'Poppins-Light';
+    margin-top: 14px;
+}
+
+@media screen and (max-width: 880px) {
+    .swiper_container {
+        padding: 30px !important;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .swiper_container {
+        padding: 20px !important;
+    }
+
+    .swiper_container .swiper-slide {
+        width: 100% !important;
+        height: auto !important; 
+    }
+}

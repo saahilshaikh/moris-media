@@ -1,0 +1,160 @@
+.demo__container{
+    width: 100%;
+    padding: 160px 60px;
+    background-image: url('../../../../assests/images/bg4.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.demo__container .demo__left__content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 160px;
+}
+
+.demo__container .demo__left__content p{
+    color: #6D007D;
+    font-size: 18px;
+    font-family: 'Poppins-Medium';
+    text-align: start;
+}
+
+.demo__container .demo__left__content h1{
+    color: #2E2E2E;
+    font-size: 45px;
+    font-family: 'Poppins-Bold';
+    margin-top: 16px;
+}
+
+.demo__container .demo__left__content h1 .dem{
+    background-color: #EE1F4F;
+    color: #fff;
+    padding: 0 12px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.demo__container .demo__left__content h1 .dem::after{
+    position: absolute;
+    content: "";
+    width: 44px;
+    height: 44px;
+    top: -30px;
+    right: -35px;
+    background-image: url('../../../../assests/images/vector3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.demo__container .demo__left__content h1 .biz{
+    color: #EE1F4F;
+    background-color: transparent;
+    position: relative;
+}
+
+.demo__container .demo__left__content h1 .biz::after{
+    position: absolute;
+    content: "";
+    width: 190px;
+    height: 47px;
+    top: 50px;
+    right: -15px;
+    background-image: url('../../../../assests/images/vector2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.demo__container .demo__right__content{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.demo__container .demo__right__content img{
+    width: 100%;
+    max-width: 690px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1400px) {
+    .demo__container .demo__left__content{
+        width: 50%;
+    }
+
+    .demo__container .demo__left__content h1{
+        font-size: 40px;
+    }
+
+    .demo__container .demo__left__content h1 .biz::after{
+        width: 170px;
+        left: 20px;
+        top: 45px;
+    }
+
+    .demo__container .demo__right__content{
+        width: 50%;
+    }
+	
+    .demo__container .demo__right__content img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .demo__container{
+        padding: 100px 30px;
+    }
+	.demo__container .demo__left__content h1{
+        font-size: 28px;
+    }
+    .demo__container .demo__left__content h1 .dem::after{
+        width: 30px;
+        top: -20px;
+        right: -25px;
+    }
+    .demo__container .demo__left__content h1 .biz::after{
+        width: 120px;
+        left: 15px;
+        top: 32px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .demo__container{
+        padding-top: 200px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-size: cover;
+    }
+
+    .demo__container .demo__left__content{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-right: 0;
+    }
+
+    .demo__container .demo__right__content{
+        width: 100%;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .demo__container .demo__left__content h1{
+        word-wrap: break-word;
+        width: 100%;
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="769.78" height="196.347" viewBox="0 0 769.78 196.347">
+  <defs>
+    <clipPath id="clip-path">
+      <rect y="356" width="769.78" height="196.347" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Scroll_Group_3" data-name="Scroll Group 3" transform="translate(0 -356)" opacity="0.042" clip-path="url(#clip-path)" style="mix-blend-mode: normal;isolation: isolate">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(769.78 37) rotate(90)">
+      <g id="Layer_1" data-name="Layer 1">
+        <path id="Path_101769" data-name="Path 101769" d="M483,235A384.79,384.79,0,0,0,128.37,0H98A98,98,0,0,0,0,98H0a98,98,0,0,0,98,98.05h28.5c104.39,0,190.38,83.92,190.67,188.31s-84.5,189.42-188.8,189.42H98a98,98,0,0,0-98,98H0a98,98,0,0,0,98,98h30.33A384.865,384.865,0,0,0,483,235Z" fill="#ee1f56"/>
+      </g>
+    </g>
+  </g>
+</svg>
